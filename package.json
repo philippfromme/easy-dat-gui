@@ -1,0 +1,12 @@
+{
+  "name": "easy-dat-gui",
+  "version": "0.0.0",
+  "description": "dat.gui made easy",
+  "main": "index.js",
+  "author": "Philipp Fromme",
+  "license": "MIT",
+  "dependencies": {
+    "dat.gui": "^0.7.3",
+    "lodash": "^4.17.11"
+  }
+}

@@ -1,16 +1,3 @@
-# dat-gui
-
-## How to use
-
-Install via npm:
-
-```sh
-npm i dat-gui
-```
-
-Use:
-
-```javascript
 import Dat from '../index';
 
 const dat = new Dat();
@@ -67,10 +54,3 @@ dat.setControllerValue('myBoolean', false);
 
 // https://github.com/dataarts/dat.gui/blob/master/src/dat/gui/GUI.js
 const myFolder = dat.getFolder('myFolder');
-```
-
-See [example](/example).
-
-## License
-
-MIT

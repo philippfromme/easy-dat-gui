@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>dat.gui Example</title>
+
+    <style>
+      .dg {
+        user-select: none !important;
+        text-shadow: none !important;
+
+        /* display: none; */
+      }
+
+      .dg i.fa {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+
+      .dg.a,
+      .dg.a .close-button {
+        width: 300px !important;
+      }
+
+      .dg .cr.string,
+      .dg .cr.number,
+      .dg .cr.boolean,
+      .dg .cr.function {
+        border-left: 3px solid #fff !important;
+      }
+
+      .dg .c .slider-fg {
+        background: #fff !important;
+      }
+
+      .dg .cr.number input[type=text] {
+        color: #fff !important;
+      }
+
+      .dg .property-name,
+      .dg li.title,
+      .close-button,
+      .c input,
+      .c select {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .cr.function .property-name {
+        width: 100%;
+      }
+
+      .cr.function.active,
+      .cr.function.active:hover {
+        background: #eee !important;
+      }
+
+      .dg .c input[type=text] {
+        padding: 1.5px 3px 1.5px 3px !important;
+      }
+
+      .dg .c select {
+        width: 100% !important;
+      }
+
+      .dg .c select:focus {
+        outline: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello dat-gui</h1>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
