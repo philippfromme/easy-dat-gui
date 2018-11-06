@@ -1,6 +1,6 @@
 {
   "name": "easy-dat-gui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "dat.gui made easy",
   "main": "index.js",
   "author": "Philipp Fromme",
